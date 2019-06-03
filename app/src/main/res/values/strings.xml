@@ -1,0 +1,148 @@
+<resources>
+    <string name="app_name">UtilNepal</string>
+    <string name="nepali_keyboard"> Nepali Keyboard</string>
+    <string name="subtype_en_NP">Nepali (np)</string>
+    <string name="balance"> पैसा चेक </string>
+
+    <string name="Close">Close</string>
+    <string name="Open">Open</string>
+
+    <string name="sim_selection">कुन चाँही सिम सेलेक्ट भएको छ हेर्नुहोस्</string>
+
+    <string name="add_balance"> ब्यालेन्स हाल्नुहोस   </string>
+    <string name="add_balance_info">सिममा ब्यालेन्स (पैसा) हाल्नुहोस</string>
+
+    <string name="balance_info"> सिममा कती पैसा छ चेक गर्नु होस  </string>
+    <string name="mobile_number"> नम्बर चेक </string>
+    <string name="mobile_number_info"> आफ्नो मोबाईल नम्बर चेक गर्नुहोस   </string>
+    <string name="data_pack"> डाटा प्याक  </string>
+    <string name="data_pack_info"> डाटा प्याक लिनुहोस  </string>
+    <string name="call_forward"> कल फोर्वार्ड चेक   </string>
+    <string name="call_forward_info"> यो नम्बरले कुन नम्बरमा कल फोर्वार्ड गरेको छ हेर्नुहोस  </string>
+    <string name="ncell">एन्सेल </string>
+    <string name="ntc">एन्टीसी  </string>
+    <string name="emergency">Emergency</string>
+    <string name="other_number">अन्य नम्बर</string>
+
+    <!--  for emergency Numbers -->
+    <string name="policeControl">पुलिस कन्ट्रोल </string>
+    <string name="policeEmergency">पुलिस ईमर्जेन्सी</string>
+    <string name="kathmanduPolice"> काठमाडौं पुलिस   </string>
+    <string name="lalitpurPolice"> ललितपुर पुलिस   </string>
+    <string name="bhaktapurPolice">भक्तपुर पुलिस   </string>
+    <string name="paropkarAmbulance">परोपकर अएम्बुलेन्स   </string>
+    <string name="lalitpurRedCrossAmbulance">ललितपुर रेडक्रस अएम्बुलेन्स   </string>
+    <string name="bishalBazaarRedCrossAmbulance">बिशाल बजार रेडक्रस अएम्बुलेन्स   </string>
+    <string name="redCrossAmbulance">रेडक्रस अएम्बुलेन्स   </string>
+    <string name="agarwalSewaCenter">अग्रवल सेवा सेन्टर </string>
+    <string name="aasaraRehabilitationCenter">आसरा ड्रुग रीह्यबिलिटेसन सेन्टर  </string>
+    <string name="neaplEyeBank">नेपाल आइ बैंक	  </string>
+    <string name="nepalEyeHospital">नेपाल आइ हस्पिटल	  </string>
+    <string name="tilGangaeyeHospital">तिल्गङ्गा आइ हस्पिटल	  </string>
+    <string name="bitHospital">बिर हस्पिटल	  </string>
+    <string name="nepalPoliceHospital">नेपाल पुलिस हस्पिटल  </string>
+    <string name="tuTeachingHospital">टियु टिचिङ हस्पिटल  </string>
+    <string name="maternityHospital">म्याटेर्निटी हस्पिटल	  </string>
+    <string name="tekuHospital">टेकु हस्पिटल	  </string>
+    <string name="patanHospital">पाटन  हस्पिटल </string>
+    <string name="bhaktapurHospital">भक्तपुर  हस्पिटल </string>
+    <string name="mentalHospital">मेन्टल  हस्पिटल </string>
+    <string name="kantiChildrenHospital">कान्ती चिल्ड्रेन हस्पिटल	</string>
+    <string name="kathmanduModelHospital">काठमाडौं मोडेल हस्पिटल </string>
+    <string name="bAndbHospital">बी एन्ड बी हस्पिटल </string>
+    <string name="mediaCareNationalHospital">मिडियाकेर  न्यासनल हस्पिटल  </string>
+    <string name="mediaCareNationalHospitalAmbulance">मिडियाकेर  न्यासनल हस्पिटल  अएम्बुलेन्स </string>
+    <string name="nepalOrthoPedicHospital">नेपाल ओर्थोपेडिक हस्पिटल	  </string>
+    <string name="teachingHospitalSinamangal">टिचिङ  हस्पिटल (सिनामंगल  ) </string>
+    <string name="teachingHospitalJorpati">टिचिङ  हस्पिटल (जोर्पाटी   ) </string>
+    <string name="kantipurDentalHospital">कान्तिपुर डेन्टल हस्पिटल (महाराजगन्ज)	  </string>
+    <string name="kantipurHospital">कान्तिपुर हस्पिटल (नयाँ बानेश्वोर)  </string>
+    <string name="hospitalAndResearchCenter">हस्पिटल एन्ड रिसर्च सेन्टर</string>
+    <string name="norvicHospital">नोर्विक हस्पिटल </string>
+    <string name="gangalalNationalHeartCenter">मार्टियार  गङ्गालाल न्यासनअल हर्ट सेन्टर</string>
+    <string name="lifeCareHospital">लाईफ केर हस्पिटल</string>
+    <string name="miteriHospital">मितेरी हस्पिटल </string>
+    <string name="capitalHospital">क्यापिटल  हस्पिटल </string>
+    <string name="shreeSatyasahiCenter">श्री सत्यसाई सेन्टर	  </string>
+    <string name="bhaktapurRedCross">भक्तपुर रेड क्रस  </string>
+    <string name="nationalKidneyCenter"> न्यासनल किड्नी सेन्टर	  </string>
+    <string name="fireBrigade">फाएर बृगेड  </string>
+    <string name="bloodBank">ब्लड बैंक   </string>
+
+    <!--Emergency Numbers-->
+
+    <string name="policeControlNumber">100</string>
+    <string name="policeEmergencyNumber">4228435</string>
+    <string name="kathmanduPoliceNumber">4261945</string>
+    <string name="lalitpurPoliceNumber">5521207</string>
+    <string name="bhaktapurPoliceNumber">6614821</string>
+    <string name="paropkarAmbulanceNumber">4260859</string>
+    <string name="lalitpurRedCrossAmbulanceNumber">5545666</string>
+    <string name="bishalBazaarRedCrossAmbulanceNumber">4244121</string>
+    <string name="redCrossAmbulanceNumber">4228094</string>
+    <string name="agarwalSewaCenterNumber">4424875</string>
+    <string name="aasaraRehabilitationCenterNumber">01-4384881</string>
+    <string name="neaplEyeBankNumber">4493684</string>
+    <string name="nepalEyeHospitalNumber">4250691</string>
+    <string name="tilGangaeyeHospitalNumber">4423684</string>
+    <string name="birHospitalNumber">4223807</string>
+    <string name="nepalPoliceHospitalNumber">4412430</string>
+    <string name="tuTeachingHospitalNumber">4412404</string>
+    <string name="maternityHospitalNumber">4253276</string>
+    <string name="tekuHospitalNumber">4253396</string>
+    <string name="patanHospitalNumber">5522278</string>
+    <string name="bhaktapurHospitalNumber">6610676</string>
+    <string name="mentalHospitalNumber">5521333</string>
+    <string name="kantiChildrenHospitalNumber">4427452</string>
+    <string name="kathmanduModelHospitalNumber">4240805</string>
+    <string name="bAndbHospitalNumber">5533206</string>
+    <string name="mediaCareNationalHospitalNumber">4467067</string>
+    <string name="mediaCareNationalHospitalAmbulanceNumber">4467067</string>
+    <string name="nepalOrthoPedicHospitalNumber">4493725	  </string>
+    <string name="teachingHospitalSinamangalNumber">4476152</string>
+    <string name="teachingHospitalJorpatiNumber">4486008</string>
+    <string name="kantipurDentalHospitalNumber">4371603</string>
+    <string name="kantipurHospitalNumber">4498757</string>
+    <string name="hospitalAndResearchCenterNumber">4476225</string>
+    <string name="norvicHospitalNumber">4258554</string>
+    <string name="gangalalNationalHeartCenterNumber">4371322</string>
+    <string name="lifeCareHospitalNumber">4227735</string>
+    <string name="miteriHospitalNumber">4280555</string>
+    <string name="capitalHospitalNumber">4244022</string>
+    <string name="shreeSatyasahiCenterNumber">4498035</string>
+    <string name="bhaktapurRedCrossNumber">6612266</string>
+    <string name="nationalKidneyCenterNumber">4429866</string>
+    <string name="fireBrigadeNumber">101</string>
+    <string name="bloodBankNumber">4225344</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="selectNepaliKeyboard">नेपाली किबोर्ड सेलेक्ट गर्नुहोस् </string>
+    <string name="enableNepaliKeyboard"> नेपाली किबोर्ड इनेबल गर्नुहोस् </string>
+    <string name="checkNepaliByTyping"> केही टाईप गरेर हेर्नुहोस्   </string>
+    <string name="successKeyboardText">बधाई छ!</string>
+    <string name="successKeyboardText2">नेपाली किबोर्ड इनेबल भयो  </string>
+
+
+    <string name="rechargeViaCameraScannerInfo">
+            रीचार्ज कार्ड मा भएको नम्बर कोर्नुहोस ।
+            क्यामेराले त्यो कोरिहेको नम्बर मा देखाउनुहोस ।
+            तल त्यो कोरिहेको नम्बर आउनेछ ।
+            पछि, डन (DONE) थिच्नुहोस ।
+    </string>
+
+    <string name="privacy_policy">
+
+        UtilNepal, an android app developed with a sole focus to help people with the utilities tools.
+        We dont store any information regarding your personal info, phone numbers. This app is not a
+        property of any company but an effort from a learning Student.
+
+        Usage:
+            The images are sole work from Android Studio and FlatIcon. So, we own no copyright of the icons and full credit goes to the owner.
+            The Recharge Scanner is from Google Vision Api.
+            We are in no contact with NTC, or Ncell Company, any reference to their name, logo is not intended
+            to infringe the laws.
+
+    </string>
+
+
+</resources>

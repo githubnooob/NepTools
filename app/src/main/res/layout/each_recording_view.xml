@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginBottom="2dp"
+    android:background="#FFF"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/recordingAvailableID"
+            android:background="#6F5B74"
+            android:layout_marginBottom="2dp"
+            >
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/mp3"
+                android:id="@+id/recordIcon"
+
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="4"
+                android:layout_height="wrap_content"
+                tools:text="2012-07-10 14:58:00"
+                android:fontFamily="serif"
+                android:textColor="#FFF"
+                android:textSize="14sp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:id="@+id/eachFileName"
+                />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/play_button"
+                android:id="@+id/playButton"
+                />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/pause"
+                android:id="@+id/pauseButton"
+                android:visibility="gone"
+                />
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/recordingAvailableID"
+            android:layout_alignParentEnd="true"
+            android:text="Delete"
+            android:background="#ff0"
+            android:padding="4dp"
+            android:textColor="#000"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:drawableEnd="@drawable/ic_delete_forever_black_24dp"
+            android:id="@+id/deleteButton"
+            android:visibility="gone"
+            />
+
+    </RelativeLayout>
+
+
+
+
+
+
+</FrameLayout>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        >
+
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:gravity="end"
+            >
+
+            <ImageView
+                android:id="@+id/circle_one"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@drawable/not_done"
+                android:layout_marginTop="4dp"
+                />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="4dp"
+            android:background="#000" />
+
+        <RelativeLayout
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="start"
+            >
+            <ImageView
+                android:id="@+id/circle_two"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@drawable/not_done"
+                android:layout_marginTop="4dp"
+                />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/enableNepaliKeyboard"
+            android:layout_marginTop="20dp"
+            android:fontFamily="serif"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/selectKeyboardText"
+            android:layout_centerInParent="true"
+
+            />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OK"
+            android:layout_below="@+id/selectKeyboardText"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/select_keyboard_button"
+            android:id="@+id/selectKeyboardButton"
+            />
+
+
+
+        <!--<com.google.android.gms.ads.AdView-->
+            <!--xmlns:ads="http://schemas.android.com/apk/res-auto"-->
+            <!--android:id="@+id/adView"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:layout_alignParentBottom="true"-->
+            <!--ads:adSize="BANNER"-->
+            <!--ads:adUnitId="ca-app-pub-6365618181796618/7227575605">-->
+        <!--</com.google.android.gms.ads.AdView>-->
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

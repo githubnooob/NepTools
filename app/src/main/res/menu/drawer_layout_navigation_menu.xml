@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Policy"
+        android:icon="@drawable/ic_security_black_24dp"
+        android:id="@+id/privacy_policy"
+
+        >
+
+    </item>
+
+    <item
+        android:title="Team"
+        android:icon="@drawable/ic_people_outline_black_24dp"
+        android:id="@+id/developer_team"
+        >
+    </item>
+
+
+</menu>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFF"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sim_selection"
+        android:textColor="#000"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/currentSelectedSIM"
+        />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/currentSelectedSIM"
+        >
+
+        <Button
+            android:id="@+id/ntcButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.50"
+            android:text="NTC"
+            android:textColor="#FFF"
+            android:background="#00368C"
+            />
+
+        <Button
+            android:id="@+id/ncellButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.50"
+            android:textColor="#FFF"
+            android:background="#5D2772"
+            android:text="NCELL"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

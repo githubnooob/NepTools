@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@drawable/date_converter_background"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/linearLayoutTopOne"
+        android:layout_marginTop="20dp"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:id="@+id/nepToEngConverterLayout"
+            android:layout_gravity="center"
+            android:gravity="center"
+            >
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/yearNepSpinner"
+                android:textAlignment="center"
+                android:layout_marginLeft="5dp"
+                ></Spinner>
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/monthNepSpinner"
+                android:textAlignment="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+
+                >
+            </Spinner>
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/dayNepSpinner"
+                android:textAlignment="center"
+                >
+            </Spinner>
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Convert to English"
+            android:id="@+id/buttonConvertToEnglish"
+            android:layout_below="@+id/nepToEngConverterLayout"
+            android:layout_marginTop="20dp"
+            android:textColor="#FFF"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/button_eng_nep"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="10dp"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        >
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:indeterminate="true"
+            style="?android:attr/progressBarStyleLargeInverse"
+            android:background="#FFF"
+            android:id="@+id/progressbarForConverting"
+            />
+
+    </LinearLayout>
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_below="@+id/googleAdsDateConverter"
+        android:layout_marginTop="20dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:id="@+id/engToNepConverter"
+            >
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="5dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/yearEngSpinner"
+                android:textAlignment="center"
+
+                ></Spinner>
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/monthEngSpinner"
+                android:textAlignment="center"
+
+                >
+            </Spinner>
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/dayEngSpinner"
+                android:textAlignment="center"
+                >
+            </Spinner>
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Convert to Nepali"
+            android:id="@+id/buttonConvertToNepali"
+            android:layout_below="@+id/engToNepConverter"
+            android:layout_marginTop="20dp"
+            android:textColor="#FFF"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/button_eng_nep"
+            android:padding="10dp"
+            />
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:fontFamily="sans-serif"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/dateConvertedTextView"
+        android:layout_marginBottom="10dp"
+        tools:text="YOUR DATE HERE"
+        android:layout_marginTop="20dp"
+        android:textColor="#000"
+
+        />
+
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#009999</color>
+    <color name="colorPrimaryDark">#008080</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorWhite"> #FFF</color>
+    <color name="grey">#b2b2b2</color>
+    <color name="keyboardColor1">#004380</color>
+    <color name="almostWhite">#FAFAFA</color>
+    <color name="buttomColor">#6200EE</color>
+    <color name="buttomColorUnpresed">#3700B3</color>
+
+    <!--color for card view-->
+    <color name="color1">#b92b27</color>
+    <color name="color2">#1565C0</color>
+    <color name="color3">#FF0099</color>
+    <color name="color4">#f5af19</color>
+    <color name="color5">#009FFF</color>
+    <color name="color6">#FF4B2B</color>
+
+    <color name="candidate_background">#b2b2b2</color>
+    <color name="candidate_normal">#6200EE</color>
+    <color name="candidate_other">#b2b2b2</color>
+    <color name="candidate_recommended">#3700B3</color>
+
+
+
+</resources>

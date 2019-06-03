@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AudioRecorder.ActivitiesFragment.RecorderFragment">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFF"
+        tools:context=".AudioRecord.ActivitiesFragment.AudioRecorderActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:src="@drawable/microphone"
+                android:layout_marginBottom="30dp"
+                android:layout_marginTop="40dp"
+                android:id="@+id/microPhoneIcon"
+                />
+
+            <Chronometer
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:id="@+id/timeForRecord"
+                android:fontFamily="serif-monospace"
+                android:textColor="#000"
+                android:layout_marginTop="10dp"
+                />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/circular_recording_button"
+                    android:layout_marginTop="40dp"
+                    android:id="@+id/playButton"
+                    />
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/stop_button_recorder"
+                    android:layout_marginTop="40dp"
+                    android:id="@+id/stopButton"
+                    android:visibility="gone"
+                    />
+
+
+
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+</FrameLayout>
